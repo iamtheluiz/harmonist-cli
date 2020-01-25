@@ -29,6 +29,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
-    "figlet": "^1.2.4"
+    "figlet": "^1.2.4",
+    "minimist": "^1.2.0"
   }
 }
