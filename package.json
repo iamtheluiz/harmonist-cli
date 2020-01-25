@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
@@ -14,7 +17,8 @@
     "@commitlint/config-conventional": "^8.3.4",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "3.0.2",
-    "husky": "^4.2.1"
+    "husky": "^4.2.1",
+    "jest": "^25.1.0"
   },
   "config": {
     "commitizen": {
