@@ -9,4 +9,6 @@ const getApplicationFlags = require('./lib/getApplicationFlags');
 clear();
 
 showApplicationBanner();
-getApplicationFlags();
+if(filename = getApplicationFlags()) {
+  console.log(filename);
+}
