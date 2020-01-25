@@ -4,6 +4,7 @@
 
 * Show application banner
 * Select a music to change metadata
+* Get current metadata from music
 * Ask music name, album, author and cover image
 * Download cover image from URL
 * Set new metadata
