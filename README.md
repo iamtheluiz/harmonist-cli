@@ -2,6 +2,7 @@
 
 ## Resources
 
+* Show application banner
 * Select a music to change metadata
 * Ask music name, album, author and cover image
 * Download cover image from URL
