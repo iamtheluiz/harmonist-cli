@@ -1,3 +1,5 @@
 node_modules/
 test/*.jpg
 test/*.png
+temp/*.jpg
+temp/*.png
