@@ -5,11 +5,18 @@ const clear = require('clear'); // Clear terminal
 const showApplicationBanner = require('./lib/showApplicationBanner');
 const getApplicationFlags = require('./lib/getApplicationFlags');
 const getMusicMetadata = require('./lib/getMusicMetadata');
+const askNewMusicMetadata = require('./lib/askNewMusicMetadata');
 
 // Clear Terminal
 clear();
 
 showApplicationBanner();
-if(filename = getApplicationFlags()) {
-  const metadata = getMusicMetadata(filename);
+
+async function run() {
+  if (filename = getApplicationFlags()) {
+    const metadata = getMusicMetadata(filename);
+    const newMetadata = await askNewMusicMetadata(metadata);
+  }
 }
+
+run();
