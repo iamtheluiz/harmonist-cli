@@ -33,6 +33,7 @@
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
     "figlet": "^1.2.4",
+    "image-downloader": "^3.5.0",
     "inquirer": "^7.0.4",
     "minimist": "^1.2.0",
     "node-id3": "^0.1.13"
