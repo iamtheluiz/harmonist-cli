@@ -1,8 +1,11 @@
 {
-  "name": "lintcommit",
+  "name": "harmonist",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "harmonist": "index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "jest"
@@ -30,6 +33,7 @@
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
     "figlet": "^1.2.4",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "node-id3": "^0.1.13"
   }
 }
