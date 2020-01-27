@@ -1,4 +1,4 @@
-# Harmonist CLI
+# 🎵 Harmonist
 
 Harmonist is a application that helps you editing metadata from audio files.
 
@@ -6,11 +6,11 @@ Harmonist is a application that helps you editing metadata from audio files.
   <img src="https://github.com/iamtheluiz/harmonist/blob/master/docs/cli.png?raw=true" alt="CLI Interface">
 </p>
 
-## Requirements
+## ✅ Requirements
 
 - [NodeJS](https://nodejs.org/)
 
-## Getting Started
+## 🏃 Getting Started
 
 First, clone this respository and access the created folder:
 
@@ -29,11 +29,11 @@ npm install
 yarn install
 ```
 
-## Authors
+## 💼 Authors
 
 * **Luiz Gustavo** - *Development* - [iamtheluiz](https://github.com/iamtheluiz)
 
-## Resources
+## 📝 Resources
 
 * Show application banner
 * Select a music to change metadata
@@ -43,12 +43,12 @@ yarn install
 * Set new metadata
 * Get help
 
-## Rules
+## ⚠️ Rules
 
 * All fields needs to be filled
 * Show current metadata as default values on input fields
 * If the given filename doesn't exist, show CLI help
 
-## License
+## 📃 License
 
 This project is under the MIT License - see the [LICENSE](LICENSE) file for details.
