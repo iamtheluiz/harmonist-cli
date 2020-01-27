@@ -19,7 +19,7 @@ async function run() {
   if (filename = getApplicationFlags()) {
     const metadata = getMusicMetadata(filename);
     let newMetadata = await askNewMusicMetadata(metadata);
-    const coverImage = await downloadMusicCoverImage(newMetadata.cover, path.resolve(__dirname, './temp'));
+    newMetadata.APIC = await downloadMusicCoverImage(newMetadata.cover, path.resolve(__dirname, './temp'));
     setMusicMetadata(newMetadata, filename);
   }
 }
