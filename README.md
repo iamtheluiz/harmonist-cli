@@ -3,15 +3,15 @@
 Harmonist is a application that helps you editing metadata from audio files.
 
 <p align="center">
-  <img src="https://github.com/iamtheluiz/harmonist/blob/master/docs/cli.png?raw=true" alt="CLI Interface" />
+  <img src="https://github.com/iamtheluiz/harmonist-cli/blob/master/docs/cli.png?raw=true" alt="CLI Interface" />
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org/github/iamtheluiz/harmonist">
-    <img alt="Build Status" src="https://travis-ci.org/iamtheluiz/harmonist.svg?branch=master" />
+  <a href="https://travis-ci.org/github/iamtheluiz/harmonist-cli">
+    <img alt="Build Status" src="https://travis-ci.org/iamtheluiz/harmonist-cli.svg?branch=master" />
   </a>
-  <img alt="Última Alteração" src="https://img.shields.io/github/last-commit/iamtheluiz/harmonist" />
-  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/iamtheluiz/harmonist" />
+  <img alt="Última Alteração" src="https://img.shields.io/github/last-commit/iamtheluiz/harmonist-cli" />
+  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/iamtheluiz/harmonist-cli" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen" />
 </p>
 
@@ -25,9 +25,9 @@ First, clone this respository and access the created folder:
 
 ```bash
 # Cloning repository
-git clone https://github.com/iamtheluiz/harmonist.git
+git clone https://github.com/iamtheluiz/harmonist-cli.git
 
-cd harmonist/
+cd harmonist-cli/
 ```
 
 Getting into the folder, install project dependencies:
